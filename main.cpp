@@ -7,7 +7,7 @@ int **p;
 void crear2matrices();
 void pedirDatos(int**,int,int);
 void imprimirMatriz(int**,int,int);
-void sumarMatrices(int**,int**,int,int);//CAMBIAR ORDEN
+void sumarMatrices(int**,int**,int,int);
 void deleteMatriz(int**,int,int);
 void imprimirConSuma(int,int,int**,int**);
 
@@ -39,7 +39,7 @@ int main(){
 
     cout<<endl;
 
-    sumarMatrices(p1,p2,nF1,nC1);//REVISAR ORDEN
+    sumarMatrices(p1,p2,nF1,nC1);
     cout<<"\t\t--------El resultado de la suma de las matrices es:--------\n\n";
 
     imprimirConSuma(nF1,nC1,p1,p2);
